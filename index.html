@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video AB loop</title>
+</head>
+
+<body>
+  <video id="vid" controls width="800">
+    <source src="videos/orderallaticlesbydescendingcreationdate.mp4" type="video/mp4">
+  </video>
+  <div id="time">00:00</div>
+  <div>
+    A : <span id="spanA">--</span> B : <span id="spanB">--</span>
+  </div>
+  <button id="A">A</button><button id="B">B</button><button id="reset">reset</button>
+  <span id="loop" style="display: none">loop</span>
+  <script src="./index.js"></script>
+</body>
+
+</html>
